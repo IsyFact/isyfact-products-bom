@@ -13,7 +13,7 @@
     <parent>
         <groupId>de.bund.bva.isyfact</groupId>
         <artifactId>isyfact-masterpom-lib</artifactId>
-        <version>1.4.0</version>
+        <version>1.4.1</version>
     </parent>
 
     <properties>
@@ -292,6 +292,13 @@
                 <groupId>org.ehcache</groupId>
                 <artifactId>ehcache</artifactId>
                 <version>3.1.4</version>
+            </dependency>
+
+            <!-- HTML-Sanitizer -->
+            <dependency>
+                <groupId>org.jsoup</groupId>
+                <artifactId>jsoup</artifactId>
+                <version>1.8.3</version>
             </dependency>
 
             <!-- Testen, Test-Framework: JUnit -->
