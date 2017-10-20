@@ -6,7 +6,7 @@
     <groupId>de.bund.bva.isyfact</groupId>
     <artifactId>isyfact-products-bom</artifactId>
     <packaging>pom</packaging>
-    <version>1.4.0-RC2</version>
+    <version>1.4.0-RC3-SNAPSHOT</version>
     <name>IsyFact Products BOM</name>
     <description>Definiert die Versionen aller 3rd-Party Abhängigkeiten des Core Technology Stack der IsyFact.</description>
 
@@ -227,7 +227,7 @@
 
             <!-- CSV-Verarbeitung: OpenCSV -->
             <dependency>
-                <groupId>net.sf.opencsv</groupId>
+                <groupId>com.opencsv</groupId>
                 <artifactId>opencsv</artifactId>
                 <version>3.8</version>
             </dependency>
