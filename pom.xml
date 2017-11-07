@@ -6,7 +6,7 @@
     <groupId>de.bund.bva.isyfact</groupId>
     <artifactId>isyfact-products-bom</artifactId>
     <packaging>pom</packaging>
-    <version>1.4.0-RC3-SNAPSHOT</version>
+    <version>1.4.0</version>
     <name>IsyFact Products BOM</name>
     <description>Definiert die Versionen aller 3rd-Party Abhängigkeiten des Core Technology Stack der IsyFact.</description>
 
