@@ -6,14 +6,14 @@
     <groupId>de.bund.bva.isyfact</groupId>
     <artifactId>isyfact-products-bom</artifactId>
     <packaging>pom</packaging>
-    <version>1.5.0.RC1</version>
+    <version>1.5.0.RC2</version>
     <name>IsyFact Products BOM</name>
     <description>Definiert die Versionen aller 3rd-Party Abhängigkeiten des Core Technology Stack der IsyFact.</description>
 
     <parent>
         <groupId>de.bund.bva.isyfact</groupId>
         <artifactId>isyfact-masterpom-lib</artifactId>
-        <version>1.5.0.RC1</version>
+        <version>1.5.0.RC2</version>
     </parent>
 
     <properties>
@@ -208,7 +208,7 @@
             <dependency>
                 <groupId>net.sf.dozer</groupId>
                 <artifactId>dozer</artifactId>
-                <version>5.5.1</version>
+                <version>5.4.0</version>
             </dependency>
 
             <!-- XML-Serialisierung: XStream -->
